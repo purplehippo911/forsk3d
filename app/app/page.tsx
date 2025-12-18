@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="m-auto w-full h-full p-0 bg-emerald-400 font-sans divide-y-4 flex-col gap-[2rem]">
+    <div className="m-auto w-full h-full p-0 bg-emerald-400 font-sans flex-col gap-[2rem]">
         <NavBar />
         <LandingPage />
         <SecondPage/>
