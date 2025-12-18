@@ -6,7 +6,7 @@ export default function NavBar() {
     <nav className="w-full py-4 px-8 bg-white shadow-md flex items-center gap-6 mb-[6rem]">
       <Image
           className=""
-          src="/forskLogo.png"
+          src="/logo.png"
           alt="Next.js logo"
           width={90}
           height={15}
