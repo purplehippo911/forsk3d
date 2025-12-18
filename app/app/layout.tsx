@@ -24,10 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
-      <body className="m-auto w-full h-full p-0 bg-emerald-400"
-        
-      >
+      <body>
         {children}
       </body>
     </html>

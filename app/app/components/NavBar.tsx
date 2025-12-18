@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav className="w-full py-4 px-8 bg-white shadow-md flex items-center gap-6 mb-[6rem]">
       <Image
-          className=""
+          className="w-auto h-auto"
           src="/logo.png"
           alt="Next.js logo"
           width={90}
