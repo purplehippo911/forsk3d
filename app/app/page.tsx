@@ -3,7 +3,6 @@ import NavBar from "./components/NavBar";
 import LandingPage from "./components/LandingPage";
 import SecondPage from "./components/SecondPage";
 import Footer from "./components/Footer";
-import Head from "next/head";
 
 
 export default function Home() {
