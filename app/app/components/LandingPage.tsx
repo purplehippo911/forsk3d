@@ -4,7 +4,7 @@ import ArrowComp from "./ArrowComp";
 export default function LandingPage() {
     return (
     <main className="">
-        <div className="flex-col md:grid  md:gap-4 md:grid-cols-3 md:grid-rows-3 text-center text-5xl"> 
+        <section className="flex-col md:grid  md:gap-4 md:grid-cols-3 md:grid-rows-3 text-center text-5xl"> 
             <div className="flex-col">
                 <p className="">We <span className="font-bold">BUILD</span></p>
                 <ArrowComp 
@@ -34,8 +34,7 @@ export default function LandingPage() {
            </p>
         </div>
 
-        </div>
-
+        </section>
     </main>
 )  ;    
 }
