@@ -45,7 +45,7 @@ export default function SecondPage() {
       </section>
 
       <section className="mt-[2rem] md:col-span-2 flex flex-col items-center md:w-[50%] h-[40%] justify-self-center">
-        <div className="flex flex-col items-center bg-white md:w-[20%] rounded p-3 mb-[2rem] md:mb-0">
+        <a href="https://www.frifond.no" className="flex flex-col items-center bg-white md:w-[20%] rounded p-3 mb-[2rem] md:mb-0 hover:bg-emerald-200 hover:scale-105">
           <p className="text-emerald-800 font-bold">Sponsored By:</p>
           <Image
             src={"https://www.frifond.no/images/frifond-brand.svg"}
@@ -53,7 +53,7 @@ export default function SecondPage() {
             height={100}
             width={80}
           />
-        </div>
+        </a>
 
       </section>
 
