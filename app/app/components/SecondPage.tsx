@@ -5,11 +5,11 @@ export default function SecondPage() {
   return (
     <section id="secondpage" className="flex bg-emerald-800 p-[4rem] text-center md:text-justify flex-col md:grid md:grid-cols-[repeat(2, minmax(10rem,1fr))] grid-rows-[repeat(3, minmax(10rem, 1fr))] m-auto w-full h-full p-0 bg-emerald-400 font-sans mt-[3rem]">
       <section className="md:col-span-2 flex-col justify-items-center items-center">
-          <h1 className="text-5xl font-bold mb-[.5rem]">WE are not the SAME</h1>
-          <h2 className="text-3xl font-italic mt-0">WE are:</h2>
+          <h1 className="text-5xl font-bold mb-[.5rem]">WE are NOT the SAME</h1>
+          <h2 className="text-4xl font-italic mt-0 mb-[2rem]">WE are:</h2>
       </section>
 
-      <section className="border-[.5rem] md:w-[60%] justify-self-center p-[5rem] flex flex-col gap-[.35rem]">
+      <section className="border-[.5rem] rounded-[2rem] md:w-[60%] justify-self-center p-[5rem] flex flex-col gap-[.35rem]">
         <div>
           <h3 className="text-6xl font-bold">Forsk3D</h3>
           <p className="text-2xl">
@@ -19,7 +19,7 @@ export default function SecondPage() {
         </div>
 
         <div className="flex flex-col gap-2">
-          <p className="mb-0 font-bold text-xl">If youre interested:</p>
+          <p className="mb-0 font-bold text-xl">If you're interested:</p>
           <a
             href="https://discord.gg/4RZS2say2r"
             className="text-xl w-[65%] text-center border border-[.3rem] font-bold rounded-full p-[.5rem] mt-0 hover:font-bold hover:text-emerald-800 hover:bg-white hover:border-0 transition-all ease-in-out duration-700ms"
@@ -28,7 +28,7 @@ export default function SecondPage() {
           </a>
           <p className="text-xl w-[80%]">
           Contact us:
-            <a href="mailto:[forsk3d@gmail.com]" className="font-bold hover:text-emerald-900">
+            <a href="mailto:[forsk3d@gmail.com]" className="font-bold hover:text-emerald-200">
                 forsk3d@gmail.com
             </a>
           </p>
