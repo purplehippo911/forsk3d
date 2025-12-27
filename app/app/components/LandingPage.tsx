@@ -45,7 +45,7 @@ export default function LandingPage() {
         <section className="ml-[rem] md:flex mt-[1rem] mb-[2rem]">
             <button 
               onClick={handleScrollToSecondPage}
-              className="border border-2 md:border-none rounded flex flex-col items-center p-2 hover:border hover:border-2"
+              className="border border-2 rounded flex flex-col items-center p-2 hover:bg-white hover:text-emerald-500 hover:border-2"
             >
                 <p className="text-xl font-bold"> Scroll Down</p>
                 <ArrowComp
