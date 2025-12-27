@@ -11,8 +11,8 @@ export default function LandingPage() {
       };
 
     return (
-    <main className="">
-        <section className="flex-col md:grid  md:gap-4 md:grid-cols-3 md:grid-rows-3 text-center text-5xl"> 
+    <main className="h-[70vh] flex flex-col items-center justify-center md:h-auto">
+        <section className="flex-cols md:grid  md:gap-4 md:grid-cols-3 md:grid-rows-3 text-center text-5xl"> 
             <div className="flex-col">
                 <p className="">We <span className="font-bold">BUILD</span></p>
                 <ArrowComp 
@@ -42,10 +42,10 @@ export default function LandingPage() {
            </p>
         </div>
         </section>
-        <section className="hidden md:flex justify-center mt-[1rem] mb-[2rem]">
+        <section className="ml-[rem] md:flex mt-[1rem] mb-[2rem]">
             <button 
               onClick={handleScrollToSecondPage}
-              className="rounded flex flex-col items-center p-2 hover:border hover:border-2"
+              className="border border-2 md:border-none rounded flex flex-col items-center p-2 hover:border hover:border-2"
             >
                 <p className="text-xl font-bold"> Scroll Down</p>
                 <ArrowComp
