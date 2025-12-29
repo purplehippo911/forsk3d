@@ -26,12 +26,14 @@ export default function SecondPage() {
             >
               Join our Discord
             </a>
-            <p className="text-xl w-[80%]">
-            Contact us:
-              <a href="mailto:[forsk3d@gmail.com]" className="font-bold hover:text-emerald-200">
-                  forsk3d@gmail.com
-              </a>
-            </p>
+            <div className="text-center">
+              <p className="text-xl">
+              Contact us:
+              </p>
+                <a href="mailto:[forsk3d@gmail.com]" className="font-bold text-xl hover:text-emerald-200">
+                    forsk3d@gmail.com
+                </a>
+            </div>
           </div>
         </section>
         <section className="md:col-start-2 md:col-end-4 md:w-[100%] h-[100%]">
