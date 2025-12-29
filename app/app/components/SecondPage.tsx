@@ -19,10 +19,10 @@ export default function SecondPage() {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <p className="mb-0 font-bold text-xl self-center mt-[2rem]">If you're interested:</p>
+            <p className="mb-0 font-bold text-xl self-center mt-[0.5rem]">If you're interested:</p>
             <a
               href="https://discord.gg/4RZS2say2r"
-              className="text-xl w-[80%] xl:w-[50%] mb-[2rem] self-center text-center border border-[.3rem] font-bold rounded-full p-[.5rem] mt-0 hover:font-bold hover:text-emerald-800 hover:bg-white hover:border-0 transition-all ease-in-out duration-700ms"
+              className="text-xl w-[80%] xl:w-[50%] mb-[1rem] self-center text-center border border-[.3rem] font-bold rounded-full p-[.5rem] mt-0 hover:font-bold hover:text-emerald-800 hover:bg-white hover:border-0 transition-all ease-in-out duration-700ms"
             >
               Join our Discord
             </a>
