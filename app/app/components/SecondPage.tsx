@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function SecondPage() {
   return (
-    <section id="secondpage" className="flex flex-col text-white bg-emerald-800 p-[4rem] text-center md:text-justify md:grid md:grid-cols-2 m-auto w-full h-full p-0 bg-emerald-400 font-sans mt-[3rem]">
+    <section id="secondpage" className="flex flex-col text-white bg-emerald-800 p-[2rem] md:p-[4rem] text-center md:text-justify md:grid md:grid-cols-2 m-auto w-full h-full p-0 bg-emerald-400 font-sans mt-[3rem]">
       <section className="md:col-span-2 flex-col justify-items-center items-center">
           <h1 className="text-5xl font-bold mb-[.5rem]">WE are NOT the SAME</h1>
           <h2 className="text-4xl font-italic mt-0 mb-[2rem]">WE are:</h2>
       </section>
 
       <section className="flex flex-col items-center md:col-span-full md:flex-row">
-        <section className="border-[.5rem] rounded-[2rem] w-[100%] p-[5rem] flex flex-col gap-[.35rem]">
+        <section className="border-[.5rem] rounded-[2rem] w-[100%] p-[2rem] md:p-[5rem] flex flex-col gap-[.35rem]">
           <div className="">
             <h3 className="text-6xl font-bold">Forsk3D</h3>
             <p className="text-2xl">
