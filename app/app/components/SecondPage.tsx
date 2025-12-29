@@ -5,8 +5,8 @@ export default function SecondPage() {
   return (
     <section id="secondpage" className="flex flex-col text-white bg-emerald-800 p-[2rem] md:p-[4rem] text-center md:text-justify md:grid md:grid-cols-2 m-auto w-full h-full p-0 bg-emerald-400 font-sans mt-[3rem]">
       <section className="md:col-span-2 flex-col justify-items-center items-center">
-          <h1 className="text-5xl font-bold mb-[.5rem]">WE are NOT the SAME</h1>
-          <h2 className="text-4xl font-italic mt-0 mb-[2rem]">WE are:</h2>
+          <h1 className="text-5xl font-bold mb-[2rem]">WE are NOT the SAME</h1>
+          <h2 className="text-4xl font-italic mb-[2rem]">WE are:</h2>
       </section>
 
       <section className="flex flex-col items-center md:col-span-full md:flex-row">
@@ -19,10 +19,10 @@ export default function SecondPage() {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <p className="mb-0 font-bold text-xl">If you're interested:</p>
+            <p className="mb-0 font-bold text-xl self-center mt-[2rem]">If you're interested:</p>
             <a
               href="https://discord.gg/4RZS2say2r"
-              className="text-xl text-center border border-[.3rem] font-bold rounded-full p-[.5rem] mt-0 hover:font-bold hover:text-emerald-800 hover:bg-white hover:border-0 transition-all ease-in-out duration-700ms"
+              className="text-xl w-[80%] xl:w-[50%] mb-[2rem] self-center text-center border border-[.3rem] font-bold rounded-full p-[.5rem] mt-0 hover:font-bold hover:text-emerald-800 hover:bg-white hover:border-0 transition-all ease-in-out duration-700ms"
             >
               Join our Discord
             </a>
@@ -36,7 +36,7 @@ export default function SecondPage() {
             </div>
           </div>
         </section>
-        <section className="md:col-start-2 md:col-end-4 md:w-[100%] h-[100%]">
+        <section className="md:col-start-2 content-center md:col-end-4 md:w-[100%] h-[100%]">
           <Image
               src="/logo.png"
               alt="Forsk3D Logo"

@@ -37,8 +37,8 @@ export default function LandingPage() {
 
         <div className="text-center md:col-start-1 md:col-end-4 md:flex md:justify-center md:row-start-2">
             <div className="justify-self-start">
-                <p className="mt-[2rem] md:hidden md:mt-0">Our own:</p>
-                <p className="mt-[.2rem] font-bold text-6xl border-[.5rem] rounded-full border-double p-[1rem] md:p-[2rem] md:mt-0 md:mt-0">
+                <p className="mt-[2rem] md:hidden md:mt-0 mb-[2rem]">Our own:</p>
+                <p className="mt-[.2rem] mb-[2rem] font-bold text-6xl border-[.5rem] rounded-full border-double p-[1rem] md:p-[2rem] md:mt-0 md:mb-0">
                 3D PRINTERS
                            </p>
             </div>
