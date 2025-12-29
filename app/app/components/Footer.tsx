@@ -7,7 +7,7 @@ export default function Footer() {
                     <p>Statsråd Mathiesens vei 25, 0594 Oslo, Norway</p>
                     <p>Arrangert ved Bjerke VGS Makerspace</p>
                 </div>
-                <p className="text-xl">forsk3d@gmail.com</p>
+                <a href="mailto:forsk3d@gmail.com" className="text-xl hover:text-emerald-900">forsk3d@gmail.com</a>
             </div>
 
         </footer>
